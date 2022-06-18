@@ -1,8 +1,25 @@
+:root {
+  --bg-white: #F5F2E9;
+  --bg-dark: #181914;
+  --primary: #BD8051;
+  --secondary: #28251E;
+}
+
+@font-face {
+  font-family: "happy-times-italic";
+  src: url("../assets/fonts/happy-times-at-the-ikob.italic.ttf");
+}
+
+@font-face {
+  font-family: "perfect-strangers";
+  src: url("../assets/fonts/perfect-strangersdemo.strangers-demo.ttf");
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: "perfect-strangers", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
