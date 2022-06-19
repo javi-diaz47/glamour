@@ -1,8 +1,10 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import { Loader } from '../components/Loader';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
-  return (
+  
+   return (
     <div className={styles.container}>
       
       <Head>
@@ -11,11 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Glamour. 
-        </h1>
-      </main>
+      <Loader />
 
     </div>
   )
