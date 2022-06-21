@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-import { loaderAnimation } from '../../../animations/loaderAnimation';
-import styles from '../../../styles/components/Loader.module.css';
-import { SplitText } from '../../SplitText';
+import { loaderAnimation } from '../../animations/loaderAnimation';
+import styles from '../../styles/components/Loader.module.css';
+import { SplitText } from '../SplitText';
 
 function Loader() {
   useEffect(() => {
