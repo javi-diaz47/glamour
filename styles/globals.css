@@ -5,15 +5,27 @@
   --secondary: #28251E;
 }
 
-@font-face {
-  font-family: "happy-times-italic";
-  src: url("../assets/fonts/happy-times-at-the-ikob.italic.ttf");
-}
 
 @font-face {
   font-family: "perfect-strangers";
   src: url("../assets/fonts/perfect-strangersdemo.strangers-demo.ttf");
 }
+
+@font-face {
+  font-family: 'san-de-more';
+  src: url('../assets/fonts/san-de-more/SandeMore\ Medium.otf');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'san-de-more';
+  src: url('../assets/fonts/san-de-more/SandeMore\ MediumItalic.otf');
+  font-weight: bolder;
+  font-style: italic;
+}
+
+
 
 html,
 body {

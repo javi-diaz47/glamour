@@ -5,6 +5,10 @@
   grid-template-columns: 1fr 4fr 2fr;
   margin: .2rem;
   border-bottom: 2px solid var(--primary);
+  position: sticky;
+  top: -1px;
+  background-color: white;
+  z-index: 2;
 }
 
 .titleWrapper {
@@ -15,7 +19,8 @@
 
 .titleWrapper h2 {
   margin: 0;
-  font-family: "happy-times-italic";
+  font-family: "happy-times";
+  font-style: italic;
   color: var(--primary);
 }
 

@@ -9,9 +9,9 @@
   position: relative;
 }
 
-
 .title {
   color: var(--primary);
-  font-family: "happy-times-italic";
+  font-family: "san-de-more";
+  font-style: italic;
   font-size: 8rem;
 }
